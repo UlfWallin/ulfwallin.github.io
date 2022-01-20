@@ -53,7 +53,8 @@ function resetCell(r, c) {
     // fill(65, sat, 85);
 
     fill(100 + 155 * (heightmap[r][c] / 9));
-    stroke(55);
+    strokeWeight(1);
+    stroke(192);
     rect(c * cellSize, r * cellSize, cellSize, cellSize);
 }
 

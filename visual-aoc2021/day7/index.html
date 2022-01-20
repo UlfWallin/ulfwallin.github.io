@@ -13,8 +13,22 @@
     <main class="container">
         <hgroup>
             <h1>Day 7</h1>
-            <h2>The Treachery of Whales - full puzzle at <a href="https://adventofcode.com/2021/day/7">Advent of Code</a></h2>
+            <h2>The Treachery of Whales</h2>
         </hgroup>
-        <div id="sketch"></div>
+        <div class="grid">
+            <div>
+                <p>The task is to align a swarm of crabs to a common horizontal position, 
+                    while spending as little fuel as possible. Read the full description of the puzzle at <a href="https://adventofcode.com/2021/day/7">Advent of Code</a></p>
+                <p>
+                    Each pink dot in the visualisation represents a crab. To find the optimal 
+                    position for the swarm, we calculate the median of all crabs position, visualised by the vertical line. 
+                </p>
+                <p>
+                    The cost for every crab to move to that position is the difference between the crabs 
+                    current position and the median position. 
+                </p>
+            </div>
+            <div id="sketch"></div>
+        </div>
     </main>
 </html>
